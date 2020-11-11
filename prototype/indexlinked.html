@@ -1,0 +1,283 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+      <link rel="stylesheet" href="../historyofj/fonts.css" type="text/css">
+      <link rel="stylesheet" href="../historyofj/styles.css" type="text/css">
+
+
+      
+      <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script> -->
+      <script src="../historyofj/jquery.min.js" type="text/javascript"></script>
+      <script type="text/javascript" src="../historyofj/jquery-visible-master/jquery.visible.js"></script>
+
+
+      <script src="../historyofj/scroll.js" type="text/javascript"></script>
+
+      <script src="../historyofj/nav.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+  
+
+<div id="welcomecover">
+  <h1 id="welcometext">Snowden</h1>
+</div>
+<script>
+  let welcomeCover = document.getElementById("welcomecover");
+    welcomeCover.addEventListener("click", function(){
+    welcomeCover.style.opacity = "0";
+    setTimeout(function(){welcomeCover.remove();}, 1000)
+  });
+</script>
+
+<video id="background" preload="auto" loop autoplay muted>
+  <source src="../historyofj/media/flickers.mp4" type="video/mp4">
+  </video>
+
+<script>
+    document.getElementById('background').play();
+</script>
+
+<div id="nav">
+  <div class="nav__item">
+    <div class="nav__box" id="navBox1"></div>
+    <a class="nav__item__link" id="navLink1" data-slide="1">Context</a>
+  </div>
+  <div class="nav__item">
+    <div class="nav__box" id="navBox2"></div>
+    <a class="nav__item__link" id="navLink2" data-slide="2">Snowden</a>
+  </div>  
+  <div class="nav__item">
+    <div class="nav__box" id="navBox3"></div>
+    <a class="nav__item__link" id="navLink3" data-slide="3">Reporting</a>
+  </div>
+  <div class="nav__item">
+    <div class="nav__box" id="navBox4"></div>
+    <a class="nav__item__link" id="navLink4" data-slide="4">Leaked</a>
+  </div>
+  <div class="nav__item">
+    <div class="nav__box" id="navBox5"></div>
+    <a class="nav__item__link" id="navLink5" data-slide="5">Journalism</a>
+  </div>
+  <div class="nav__item">
+    <div class="nav__box" id="navBox6"></div>
+    <a class="nav__item__link" id="navLink6" data-slide="6">Response</a>
+  </div>
+  <div class="nav__item">
+    <div class="nav__box" id="navBox7"></div>
+    <a class="nav__item__link" id="navLink7" data-slide="7">Impact</a>
+  </div>
+
+</div>
+
+<!-- <video id="video2" class="scrollvideo" preload="auto" loop="loop" autoplay="true" >
+  <source src="snowden1.mp4" type="video/mp4">
+</video> -->
+
+<div class="slide" id="slide1" >
+
+<img id="video1" class="scrollvideo" preload="auto" src="../historyofj/media/context.png" >
+  </img>
+<div class="textcontainer"> 
+  <h1>Context</h1> 
+  <div class="textholder">
+  <p><a class="inlinequote" href="https://www.govinfo.gov/content/pkg/BILLS-107hr3162enr/pdf/BILLS-107hr3162enr.pdf" target="blank">The Patriot Act</a> signed into effect in 2001 by President Bush in response to the 9/11 terrorist attacks. The Patriot Act has three main provisions:</p>
+  <ul>
+    <li>Expanded abilities of law enforcement to surveil, including tapping domestic and international phones
+    </li>
+    <li>Eased interagency communication to allow federal agencies to more effectively use all available resources in counter terrorism efforts
+    </li>
+    <li>Increased penalties for terrorism crimes and and expanded list of activities which would qualify someone to be charged with terrorism
+    </li>
+  </ul>
+  <p>Since 2001, there has been a huge increase of mobile cellular subscriptions and these cellphones' capabilities. </p>
+  
+  <iframe src="https://data.worldbank.org/share/widget?end=2018&indicators=IT.CEL.SETS&start=1980&view=chart" width='450' height='300' frameBorder='0' scrolling="no" ></iframe>
+
+  </div>
+
+</div>
+</div>
+
+<div class="slide" id="slide2" >
+
+  <img id="video2" class="scrollvideo" src="../historyofj/media/snowden.png">
+  </img>
+  <div class="textcontainer"> 
+    <h1>Snowden</h1> 
+    <div class="textholder">
+    <p><a class="inlinequote" href="https://en.wikipedia.org/wiki/Edward_Snowden" target="blank">Edward Snowden</a> was 29 years old at the time, technical assistant for the CIA and employee of the defence contractor Booz Allen Hamilton. He had been working for the last four years as an employee of various outside contractors, including Booz Allen and Dell. </p>
+    <p>After some time being employed, Snowden lost faith in those programs, resulting in Snowden trying to raise ethical concerns within these programs, but was ignored. In turn, his frustrations motivated him to fly to Hong Kong on May 20, 2013 after quitting his job. Once he arrived in Hong Kong, leaving his NSA Facility in Hawaii, he then leaked thousands of private and classified documents to the journalists from The Guardian and Washington Post. </p>
+    </div>
+  
+  </div>
+  </div>
+
+
+<div class="slide" id="slide3" >
+  <div class="placeholder"></div>
+    <div class="textcontainer"> 
+        <h1>Reporting</h1> 
+        <div class="textcontainer__cardholder">
+          <a class="reportingcard" href="https://www.theguardian.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance" target="blank">
+            <div class="reportingcard--hover"><p class="reportingcard--hover__text">The Guardian Reporters - <br> Glenn Greenwald, Ewen MacAskill and Laura Poitras</p></div>
+            <img src="../historyofj/guardian_logo.svg" class="guardianlogo">
+          </a>
+
+          <a class="reportingcard" href="https://www.washingtonpost.com/politics/intelligence-leaders-push-back-on-leakers-media/2013/06/09/fff80160-d122-11e2-a73e-826d299ff459_story.html" target="blank">
+            <div class="reportingcard--hover"><p class="reportingcard--hover__text">The Washington Post Reporters - <br> Barton Gellman, Aaron Blake and Greg Miller</p></div>
+            <img src="../historyofj/washingtonpost_logo.svg" class="washingtonpostlogo">
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+<div class="slide" id="slide4" >
+
+  <video id="video4" class="scrollvideo" preload="auto" loop autoplay muted>
+    <source src="../historyofj/media/leaked.mp4" type="video/mp4">
+  </video>
+  <script>
+    document.getElementById('video4').play();
+</script>
+    <div class="textcontainer"> 
+      <h1>Leaked</h1> 
+        <div class="textholder">
+        <p>Snowden himself has admitted that the documents that he has leaked are far too many for him to release carefully. Instead he entrusted it to America’s journalists. Greenwald stated that Snowden gave him 10,000 documents. The full number of confidential documents that Snowden released is unknown but an estimate of 1.5 million documents was made by the NSA and <a class="inlinequote" href="https://fas.org/irp/congress/2016_rpt/hpsci-snowden.pdf" target="blank">Congress</a>.</p>
+        <p>Greenwald has released a number of documents through <br> his <a class="inlinequote" href="http://glenngreenwald.net/#BookDocuments" target="blank">personal website</a>. The ACLU also <a class="inlinequote" href="https://www.aclu.org/nsa-documents-search?page=1" target="blank">hosts a database</a> of all released documents.</p>
+        
+        </div>
+    
+    </div>
+</div>
+
+<div class="slide" id="slide5" >
+  <!-- <div class="placeholder"></div> -->
+  <video id="video5" class="scrollvideo" preload="auto" loop autoplay muted>
+    <source src="../historyofj/media/encrypt.mp4" type="video/mp4">
+  </video>
+  <script>
+    document.getElementById('video5').play();
+</script>
+    <div class="textcontainer"> 
+      <h1>Journalism</h1> 
+        <div class="textholder">
+        <p>Snowden has made an impact on the methods/process of investigative journalism with modern day technology. Journalists now are more aware of the methods they use to communicate with their sources.  </p>
+        <a class="pullquote" href="https://www.journalism.org/2015/02/05/investigative-journalists-and-digital-security/pj_2015-02-05_investigative-journalists_01/" target="blank"> <p class="pullquote__text">“The survey of 671 journalists, conducted by the US-based Pew Research Center and Columbia University’s Tow Center for Digital Journalism, found that 64% believe that the US government has probably collected data about their communications.”</p></a>
+        <p>Snowden himself served as an example of sources. When Snowden first contacted Glenn Greenwald at the Guardian, he insisted on only communicating through secure and encrypted channels.</p>  
+        </div>
+    
+    </div>
+</div>
+
+<div class="slide" id="slide6" >
+  <!-- <div class="placeholder"></div> -->
+  <!-- <video id="video5" class="scrollvideo" preload="auto" loop autoplay muted>
+    <source src="media/encrypt.mp4" type="video/mp4">
+  </video> -->
+  <div class="multiBackgroundHolder">
+    <img class="multiBackground" id="multiBackground1" src="../historyofj/media/obama.png">
+    <img class="multiBackground" id="multiBackground2" src="../historyofj/media/protest.png">
+    <img class="multiBackground" id="multiBackground3" src="../historyofj/media/jim.png">
+    <img class="multiBackground" id="multiBackground4" src="../historyofj/media/onphone.png">
+    <img class="multiBackground" id="multiBackground5" src="../historyofj/media/globe.png">
+  </div>
+    <div class="textcontainer"> 
+      <h1>Response</h1> 
+        <div>
+        <input type="radio" name="group1" class="radioButton" id="radioButton1" checked>
+          <label class="responseButton" id="responseButton1" data-response="obamaText" for="radioButton1">Obama</label>
+        </input>
+        <input type="radio" name="group1" class="radioButton" id="radioButton2">  
+          <label class="responseButton" id="responseButton2" data-response="protestsText" for="radioButton2">Protests</label>
+        </input>
+        <input type="radio" name="group1" class="radioButton" id="radioButton3">
+          <label class="responseButton" id="responseButton3" data-response="governmentText" for="radioButton3">Government</label>
+        </input>
+        <input type="radio" name="group1" class="radioButton" id="radioButton4">
+          <label class="responseButton" id="responseButton4" data-response="publicText" for="radioButton4">Public</label>
+        </input>
+        <input type="radio" name="group1" class="radioButton" id="radioButton5">
+          <label class="responseButton" id="responseButton5" data-response="globalText" for="radioButton5">Global</label>
+        </input>
+          <div id="responseTextHolder">
+            <p class="responseText" id="obamaText">Barack Obama stated that all nations collect intelligence. In 2014, Obama stated, "our nation's defense depends in part on the fidelity of those entrusted with our nation's secrets. If any individual who objects to government policy can take it into their own hands to publicly disclose classified information, then we will not be able to keep our people safe, or conduct foreign policy." He objected to the "sensational" way the leaks were reported, saying the reporting often "shed more heat than light." He went on to assert that the disclosures had revealed "methods to our adversaries that could impact our operations."</p>
+            <p class="responseText" id="protestsText">Snowden’s Disclosures have inspired public protests such as “Restore the Fourth”, “Stop Watching Us”, and “The Day We Fight Back”. “Restore the Fourth” held protests in over 80 cities. “Stop Watching Us” was held on October 26th, 2013 in Washington DC.  “The Day We Fight Back” was an internet campaign for websites to display a banner “The Day We Fight Back” for 24 hours on February 11th, 2014. The protest fell short with the major tech companies showing a small sign of support but not the full banner.            </p>
+            <p class="responseText" id="governmentText">The principal author of the Patriot Act, congressman Jim Sensenbrenner, said that <a class="inlinequote" target="blank" href="https://www.c-span.org/video/?c4483525/user-clip-rep-jim-sensenbrenner-nsa-bulk-collection-exceeds-law"> no fair reading of the text </a> could read section 215 of the Patriot Act and use it to justify the NSA’s surveillance of the American peoples phones. 
+              <br><br>
+              Reauthorization bills of the Patriot Act failed to pass congress and expired on June 1, 2015. Instead the next day the USA Freedom Act was passed reenacting the expired sections through 2019. However, Section 215 was amended to disallow the NSA to continue its mass phone data collection program. Instead, phone companies will retain the data and the NSA can obtain information about targeted individuals with a federal search warrant.
+              </p>
+            <p class="responseText" id="publicText">Two years later, Last Week Tonight Show Host, John Oliver, said that we have forgotten how to have public debate around the issue of mass surveillance. He interviewed people on the street in Times Square about who Snowden was and none of them had any clue. <br><br> Americans were divided about the impact of the leaks immediately following Snowden’s disclosures, but a majority said the government should prosecute the leaker. About half of Americans (49%) said the release of the classified information served the public interest, while 44% said it harmed the public interest, according to <br> a <a class="inlinequote" target="blank" href="https://www.pewresearch.org/politics/2013/06/17/public-split-over-impact-of-nsa-leak-but-most-want-snowden-prosecuted/">Pew Research Center survey</a> conducted days <br>after the revelations.</p>
+            <p class="responseText" id="globalText">International response to Snowden was initially more about asking the US to give information on the situation and of the surveillance of their respective citizens in the US. In Hong Kong, where Snowden was hiding, the government desired to handle the situation in an organized manner and not get involved with a mess. After Snowden left Hong Kong, Chinese media expressed relief that Hong Kong no longer had to deal with the burden of Snowden. </p>
+          </div>
+        </div>
+    
+    </div>
+</div>
+
+  <script>
+    let responseButtons = document.getElementsByClassName("responseButton");
+    let responseText = document.getElementsByClassName("responseText");
+    let multiBackground = document.getElementsByClassName("multiBackground");
+
+    for (var i = 1; i < (responseButtons.length+1); i++){
+      let responseButtonTarget = document.getElementById(`responseButton${+i}`);
+      let multiBG = document.getElementById(`multiBackground${+i}`);
+        responseButtonTarget.addEventListener("click", function(){ clearResponse();
+            let responseId = responseButtonTarget.dataset.response;
+            let responseText = document.getElementById(responseId);
+            multiBG.style.opacity = "100"
+            responseText.style.opacity = "100"
+            responseText.style.pointerEvents = "auto"
+            // responseButtonTarget.style.animation = "responseButtonSelected 0.2s cubic-bezier(.12,.68,.53,1.32) 0s";
+            // console.log(responseText)
+          });
+    }
+
+    function clearResponse(){
+      Array.prototype.forEach.call(responseText, e =>{
+        e.style.opacity = "0";
+        e.style.pointerEvents = "none"
+      })
+      Array.prototype.forEach.call(multiBackground, e =>{
+        e.style.opacity="0";
+      })
+      // Array.prototype.forEach.call(responseButtons, e =>{
+      //   e.style.backgroundColor="white";
+      //   e.style.color="black";
+      // })
+    };
+
+    
+
+    // let responseText = document.getElementById("obamaText");
+    //   responseButton.addEventListener("click", function(){
+    //   responseText.style.opacity = "100";
+    // });
+  </script>
+
+<div class="slide" id="slide7" >
+
+  <img id="video7" class="scrollvideo" src="../historyofj/media/snowden.png">
+  </img>
+  <div class="textcontainer"> 
+    <h1>Impact</h1> 
+    <div class="textholder">
+    <p><a class="inlinequote" href="https://en.wikipedia.org/wiki/Edward_Snowden" target="blank">Edward Snowden</a> was 29 years old at the time, technical assistant for the CIA and employee of the defence contractor Booz Allen Hamilton. He had been working for the last four years as an employee of various outside contractors, including Booz Allen and Dell. </p>
+    <p>After some time being employed, Snowden lost faith in those programs, resulting in Snowden trying to raise ethical concerns within these programs, but was ignored. In turn, his frustrations motivated him to fly to Hong Kong on May 20, 2013 after quitting his job. Once he arrived in Hong Kong, leaving his NSA Facility in Hawaii, he then leaked thousands of private and classified documents to the journalists from The Guardian and Washington Post. </p>
+    </div>
+  
+  </div>
+  </div>
+
+  </body>
+</html>
+
+
+

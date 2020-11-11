@@ -1,0 +1,34 @@
+@font-face {
+font-family: "archia-regular";
+src: url("../fonts/archia-regular-webfont.woff2") format("woff2");
+font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+font-family: "archia-bold";
+src: url("../fonts/archia-bold-webfont.woff2") format("woff2");
+font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+font-family: "archia-semibold";
+src: url("../fonts/archia-semibold-webfont.woff2") format("woff2");
+font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+font-family: "archia-medium";
+src: url("../fonts/archia-medium-webfont.woff2") format("woff2");
+font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+font-family: "archia-light";
+src: url("../fonts/archia-light-webfont.woff2") format("woff2");
+font-weight: normal;
+    font-style: normal;
+}
